@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" type="text/css" href="../css/cart.css">
+	<script src = '../js/require.js' defer async="true" data-main = '../js/cart'></script>
+</head>
+<body>
+<div class="container">
+		<div id="header-container" class="">
+			<div class="header  ">
+				<div class="header-logo">
+					<a href="../index.html" ><i></i></a>
+				</div>
+				<ul class="header-link" id="header-link">
+					<li id="header-link-hd1" class="header-link-product" target="_blank">
+					<a href="https://lists.meizu.com/page/list" class="header-link-product-a" target="_blank">手机</a>
+					</li>
+					<li id="header-link-hd2" class="header-link-product" target="_blank">
+						<a href="https://lists.meizu.com/page/list" class="header-link-product-a" target="_blank">声学</a>
+					</li>
+					<li id="header-link-hd3" class="header-link-product" target="_blank">
+						<a href="https://lists.meizu.com/page/list" class="header-link-product-a" target="_blank">配件</a>
+					</li>
+					<li id="header-link-hd4" class="header-link-product" target="_blank">
+						<a href="https://lists.meizu.com/page/list" class="header-link-product-a" target="_blank">生活</a>
+					</li>
+					<li>
+						<a href="https://lists.meizu.com/page/list" class="header-link-product-a" target="_blank">Flyme</a>
+					</li>
+					<li>
+						<a href="https://	lists.meizu.com/page/list" class="header-link-product-a" target="_blank">服务</a>
+					</li>
+					<li>
+						<a href="https://lists.meizu.com/page/list" class="header-link-product-a" target="_blank">专卖店</a>
+					</li>
+					<li>
+						<a href="https://lists.meizu.com/page/list" class="header-link-product-a" target="_blank">社区</a>
+					</li>
+					<li id="header-link-hd9" class="header-link-product" target="_blank">
+						<a href="https://lists.meizu.com/page/list" class="header-link-product-a" target="_blank">下载</a>
+					</li>
+				</ul>
+				<div class="header-item header-search" id="Search">
+					<input type="text" placeholder="魅族16s">
+					<a href=""><i></i></a>
+				</div>
+				<div class="header-jump">
+					<a href="" class="header-registered">注册</a>
+					<a href="" class="header-login">登录</a>
+				</div>
+			</div>
+		</div>
+	
+	<!-- cart -->
+	<div class="cart" id="cart">
+		<div class="container-r">
+			<table class="cart-header">
+				<tbody>
+					<tr>
+						<td class="cart-col-select">全选</td>
+						<td class="cart-col-price">单价</td>
+						<td class="cart-col-number">数量</td>
+						<td class="cart-col-total">小计(元)</td>
+						<td class="cart-col-ctrl">编辑</td>
+					</tr>
+				</tbody>
+			</table>
+			<ul class="cart-list" id="cart-list">
+				<li class="cart-merchant">
+					<div class="cart-merchant-header">
+						<span>魅族</span>
+					</div>
+					<table class="cart-merchant-body">
+						<tr class="cart-more-buy">
+							<td class="cart-product-buy" colspan = "5">
+								<div class="more-buy-tag">
+									<span>加购价</span>
+								</div>
+								<span class="more-buy-tips">另加19元起，即可换购超值商品</span>
+							</td>
+						</tr>
+						
+					</table>
+				</li>
+			</ul>
+		</div>
+		<div class="cart-footer" id="cart-footer">
+			<div class="container-f">
+				<div class="cart-footer-left">
+					<span class="cart-remove" id="cart-remove">删除商品</span>
+					<span class="cart-footer-count">
+						共
+						<span class="cart-footer-num">1</span>
+						件商品
+					</span>
+				</div>
+				<div class="crt-footer-right">
+					<span class="cart-footer-sum">
+						合计：
+						<span class="cart-footer-total" id="cart-footer-total">
+							0.0
+						</span>
+					</span>
+					<div class="btn">
+						去结算
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<div class="footerWrap" id="flymeFooter">
+				<div class="footerInner">
+					<div class="footer-layer1 clear">
+						<div class="footer-innerLink">
+					<a class="end" href="http://www.meizu.com" target="_blank" title="关于魅族">关于魅族</a>
+					<img src="https://uc-res.mzres.com/resources/common/images/default/space.gif" alt="" class="foot-line">
+					<a class="end" href="http://www.meizu.com" target="_blank" title="工作经验">工作经验</a>
+					<img src="https://uc-res.mzres.com/resources/common/images/default/space.gif" alt="" class="foot-line">
+					<a class="end" href="http://www.meizu.com" target="_blank" title="工作机会">工作机会</a>
+					<img src="https://uc-res.mzres.com/resources/common/images/default/space.gif" alt="" class="foot-line">
+					<a class="end" href="http://www.meizu.com" target="_blank" title="联系我们">联系我们</a>
+					<img src="https://uc-res.mzres.com/resources/common/images/default/space.gif" alt="" class="foot-line">
+					<a class="end" href="http://www.meizu.com" target="_blank" title="法律声明">法律声明</a>
+					<img src="https://uc-res.mzres.com/resources/common/images/default/space.gif" alt="" class="foot-line">
+					<a class="end" href="http://www.meizu.com" target="_blank" title="常见问题">常见问题</a>
+					<img src="https://uc-res.mzres.com/resources/common/images/default/space.gif" alt="" class="foot-line">
+					<a class="end" href="http://www.meizu.com" target="_blank" title="简体中文">简体中文</a>
+					<img src="https://uc-res.mzres.com/resources/common/images/default/space.gif" alt="" class="foot-line">
+						</div>
+						<div class="footer-service">
+					<span class="service-label">客服热线</span>
+					<span class="service-num">400-788-3333</span>
+					<a href="" class="service-online" title="在线客服">在线客服</a>
+						</div>
+						<div class="footer-outerLink">
+					<a href="http://weibo.com/meizumobile" class="footer-sinaMblog" target="_blank">
+						<i class="i_icon"></i>
+					</a>
+					<a href="javascript:void(0);" class="footer-weChat" target="_blank">
+						<i class="i_icon"></i>
+					</a>
+					<a href="http://user.qzone.qq.com/2762957059" class="footer-qzone" target="_blank">
+						<i class="i_icon"></i>
+					</a>
+						</div>
+					</div>
+					<div id="flymeCopyright" class="copyrightWrap">
+						<div class="copyrightInner">
+					<span>©2019 Meizu Telecom Equipment Co., Ltd. All rights reserved.</span>
+					<a href="http://www.miitbeian.gov.cn/" class="linkAGray" target="_blank">备案号: 粤ICP备13003602号-4</a>
+					<a href="http://www3.res.meizu.com/static/cn/widget/footer/images/icp2_b2dcb54.jpg" class="linkAGray" target="_blank">经营许可证编号: 粤B2-20130198</a>
+					<a href="http://www2.res.meizu.com/zh_cn/images/common/com_licence.jpg" class="linkAGray" target="_blank" hidefocus="true">营业执照</a>
+						</div>
+					</div>
+				</div>
+			</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/buttons.css">
+	<link rel="stylesheet" type="text/css" href="../css/register.css">
+	<script type="text/javascript" src = "../js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="../js/register.js"></script>
+</head>
+<body>
+	<div  id = "content" class="content">
+		<div class="header" id="header">
+			<a href="../index.html" class="meizulogo">
+				<i class="i_icon"></i>
+			</a>
+		</div>
+		<div class="banner-box">
+			<div class="bg-box">
+				<div class="main">
+					<p><a href="#">注册Flyme</a></p>
+					<div class = 'form-group'>
+						<label for="username">用户名</label>
+						<input type="text" name="username" class = 'form-control' id="username" onblur="blurFunc()" placeholder="用户名">
+					</div>
+					<div class = 'form-group'>
+						<label for="username">密码</label>
+						<input type="password" id="password" name="password" class = 'form-control' onblur = "blurFuncm()" placeholder="密码">
+					</div>
+					<div class = 'form-group'>
+						<label for="username">确认密码</label>
+						<input type="password" name="repassword" id="repassword" class = 'form-control' placeholder="确认密码">
+						<div id = 'alert' class="alert alert-danger" role="alert">请输入用户名</div>
+						<a href="#" class = 'text-warning'>忘记密码？</a>
+						<a href="#" class = ' pull-right'>常见问题</a>
+						<span>点击立即注册，即表示您同意并愿意遵守Flyme服务协议和法律声明</span>
+					<button id = 'loginBtn' class="button button-raised button-primary button-pill">立即注册</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footerWrap" id="flymeFooter">
+		<div class="footerInner">
+			<div class="footer-layer1 clear">
+				<div class="footer-innerLink">
+					<a href="http://www.meizu.com" target="_blank" title="关于魅族">关于魅族</a>
+					<img src="https://uc-res.mzres.com/resources/common/images/default/space.gif" alt="" class="foot-line">
+					<a href="http://www.meizu.com" target="_blank" title="工作经验">工作经验</a>
+					<img src="https://uc-res.mzres.com/resources/common/images/default/space.gif" alt="" class="foot-line">
+					<a href="http://www.meizu.com" target="_blank" title="工作机会">工作机会</a>
+					<img src="https://uc-res.mzres.com/resources/common/images/default/space.gif" alt="" class="foot-line">
+					<a href="http://www.meizu.com" target="_blank" title="联系我们">联系我们</a>
+					<img src="https://uc-res.mzres.com/resources/common/images/default/space.gif" alt="" class="foot-line">
+					<a href="http://www.meizu.com" target="_blank" title="法律声明">法律声明</a>
+					<img src="https://uc-res.mzres.com/resources/common/images/default/space.gif" alt="" class="foot-line">
+					<a href="http://www.meizu.com" target="_blank" title="常见问题">常见问题</a>
+					<img src="https://uc-res.mzres.com/resources/common/images/default/space.gif" alt="" class="foot-line">
+					<a href="http://www.meizu.com" target="_blank" title="简体中文">简体中文</a>
+					<img src="https://uc-res.mzres.com/resources/common/images/default/space.gif" alt="" class="foot-line">
+				</div>
+				<div class="footer-service">
+					<span class="service-label">客服热线</span>
+					<span class="service-num">400-788-3333</span>
+					<a href="" class="service-online" title="在线客服">在线客服</a>
+				</div>
+				<div class="footer-outerLink">
+					<a href="http://weibo.com/meizumobile" class="footer-sinaMblog" target="_blank">
+						<i class="i_icon"></i>
+					</a>
+					<a href="javascript:void(0);" class="footer-weChat" target="_blank">
+						<i class="i_icon"></i>
+					</a>
+					<a href="http://user.qzone.qq.com/2762957059" class="footer-qzone" target="_blank">
+						<i class="i_icon"></i>
+					</a>
+				</div>
+			</div>
+			<div id="flymeCopyright" class="copyrightWrap">
+				<div class="copyrightInner">
+					<span>©2019 Meizu Telecom Equipment Co., Ltd. All rights reserved.</span>
+					<a href="http://www.miitbeian.gov.cn/" class="linkAGray" target="_blank">备案号: 粤ICP备13003602号-4</a>
+					<a href="http://www3.res.meizu.com/static/cn/widget/footer/images/icp2_b2dcb54.jpg" class="linkAGray" target="_blank">经营许可证编号: 粤B2-20130198</a>
+					<a href="http://www2.res.meizu.com/zh_cn/images/common/com_licence.jpg" class="linkAGray" target="_blank" hidefocus="true">营业执照</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none; }
+
+a {
+  color: #515151;
+  text-decoration: none; }
+
+body {
+  background: white;
+  font-size: 14px;
+  color: #515151; }
+
+.clear {
+  content: "";
+  overflow: hidden;
+  height: 0;
+  float: both;
+  display: block; }
+
+body .content {
+  width: 100%;
+  list-style: none;
+  border: none; }
+
+body .content .header {
+  height: auto;
+  padding: 28px 0 40px 0;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1200px; }
+
+body .content .header .meizulogo {
+  float: left;
+  height: 20px;
+  width: 110px;
+  overflow: hidden;
+  display: block; }
+
+body .content .header .meizulogo i {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background: url(../images/base.png) -2px -4px no-repeat; }
+
+body .content .banner-box {
+  position: relative;
+  min-height: 750px;
+  max-height: 1080px;
+  background: linear-gradient(to bottom, #f8fcff, #f8fcff, #f8fcff); }
+
+body .content .banner-box::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/banner.png) no-repeat center #edf9fb; }
+
+body .content .banner-box .bg-box {
+  position: relative;
+  width: 1240px;
+  height: 750px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.content .banner-box .bg-box .main {
+  width: 400px;
+  height: 550px;
+  margin: 100px 100px 100px 750px;
+  background: #fff;
+  padding: 50px; }
+
+.content .banner-box .bg-box .main p {
+  font-size: 20px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  color: blue; }
+
+.content .banner-box .bg-box .main span {
+  display: block;
+  font-size: 12px;
+  color: #666; }
+
+.content .banner-box .bg-box .main #alert {
+  text-align: center;
+  height: 30px;
+  padding: 0;
+  line-height: 30px; }
+
+.content .banner-box .bg-box .main .pull-right {
+  color: #ccc;
+  display: block; }
+
+.content .banner-box .bg-box .main #loginBtn {
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 50px; }
+
+body .footerWrap {
+  position: static;
+  border-color: transparent !important;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  border-top: 1px solid #e5e6e7;
+  background: #fff;
+  color: black; }
+
+body .footerWrap .footerInner {
+  width: 1000px;
+  margin: 24px auto 30px; }
+
+body .footerWrap .footerInner .footer-layer1 {
+  height: 50px;
+  line-height: 50px; }
+
+.footer-innerLink, .footer-outerLink {
+  float: left; }
+
+.footerWrap .footerInner .footer-layer1 a:link {
+  color: black; }
+
+.footerWrap .footerInner .footer-layer1 .footer-innerLink .foot-line {
+  background: #888;
+  margin: 0 5px;
+  width: 1px;
+  height: 10px; }
+
+.footerWrap .footerInner .footer-layer1 .footer-service {
+  float: left;
+  margin-left: 36px; }
+
+.footerInner .footer-layer1 .footer-service .service-label {
+  margin-right: 10px; }
+
+.footerInner .footer-layer1 .footer-service .service-num {
+  margin-right: 20px; }
+
+.footer-layer1 .footer-service .service-online {
+  display: inline-block;
+  height: 20px;
+  line-height: 18px;
+  width: 64px;
+  color: white;
+  background: #32a5e7;
+  border-radius: 2px;
+  text-align: center; }
+
+.footerWrap .footerInner .footer-layer1 .footer-outerLink {
+  position: relative;
+  float: right;
+  padding-top: 9px; }
+
+.footerInner .footer-layer1 .footer-outerLink a {
+  cursor: pointer;
+  margin-left: 10px;
+  display: inline-block;
+  overflow: hidden;
+  width: 32px;
+  height: 32px; }
+
+.footer-sinaMblog i {
+  background: url(../images/base.png) no-repeat -218px -91px; }
+
+.footer-weChat i {
+  background: url(../images/base.png) no-repeat -302px -91px; }
+
+.footer-qzone i {
+  background: url(../images/base.png) no-repeat -344px -91px; }
+
+.footer-layer1 .footer-outerLink .i_icon {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-style: italic; }
+
+.footerWrap .footerInner .copyrightWrap {
+  width: 100%; }
+
+.footerInner .copyrightWrap .copyrightInner {
+  width: 1000px;
+  margin: 0px auto; }
+
+.footerInner .copyrightWrap .copyrightInner span {
+  color: #7f7f7f;
+  float: left;
+  font-size: 12px; }
+
+.footerInner .copyrightWrap .copyrightInner a {
+  white-space: nowrap;
+  float: left;
+  margin-left: 6px;
+  font-size: 12px; }
+
+a.linkAGray:link, a.linkAGray:visited {
+  color: #7f7f7f; }
